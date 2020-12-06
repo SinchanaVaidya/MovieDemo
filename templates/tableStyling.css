@@ -1,0 +1,64 @@
+table { 
+		width: 100%; 
+		border-collapse: collapse; 
+		border-top-width:8px;
+	  }
+	  
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+			background: #eee; 
+					}
+					
+					
+th { 
+		background:#333; 
+		border-color: white;
+		color: white; 
+		font-weight: bold; 
+	}
+	
+	
+td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		width: 4rem;
+		height: 2rem;
+		text-align: center;
+		}
+		
+		
+.header {
+			padding: 5px;
+			font-family: Verdana;
+			text-align: center;
+			background: #333;
+			text-shadow: 2px 2px 5px #86C232;
+			color: white;
+			font-size: 25px;
+		}
+		
+		
+.searchbar{
+			padding: 1px;
+			font-family: Verdana;
+			background: #333;
+			color: white;
+			font-size: 18px;
+		}
+
+
+input[type=text] {
+				width: 25%;
+				padding: 12px 20px;
+				font-family: Verdana;
+				margin: 8px 0;
+				box-sizing: border-box;
+				border: 2px solid #86C232;
+				border-radius: 4px;
+				}
+
+
+label{
+		padding:20px;
+	}
